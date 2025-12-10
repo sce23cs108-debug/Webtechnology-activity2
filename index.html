@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Registration Form</title>
     <link rel="stylesheet" href="style.css">
+    <!-- jQuery (optional, only if you really need it in script.js) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
@@ -44,7 +45,7 @@
             <input type="email" id="email" name="email" required>
 
             <label for="phone">Phone:</label>
-            <input type="text" id="phone" name="phone" required>
+            <input type="tel" id="phone" name="phone" required>
 
             <label for="dob">Date of Birth:</label>
             <input type="date" id="dob" name="dob" required>
@@ -53,6 +54,7 @@
         </form>
         <div id="result"></div>
     </div>
+    <!-- Your custom script (after the HTML and after jQuery if you use it) -->
     <script src="script.js"></script>
 </body>
 </html>
